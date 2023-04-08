@@ -1,0 +1,60 @@
+# Query: shoppinglyx
+# ContextLines: 1
+
+13 results - 7 files
+
+manage.py:
+  8      """Run administrative tasks."""
+  9:     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'EasyShopzz.settings')
+  10      try:
+
+README.md:
+  1: # EasyShopzz
+  2  This is a Static DJango Shopping Website 
+  3: ![alt text](https://github.com/geekyshow1/EasyShopzz/blob/main/Screenshots/Home.jpeg)
+  4  
+
+app\templates\app\home.html:
+  110  <div class="mx-3">
+  111:  <h2>EasyShopzz Top Wear</h2>
+  112   <!-- Slider 2 -->
+
+  128  <div class="mx-3">
+  129:   <h2>EasyShopzz Mobile</h2>
+  130    <!-- Slider 3 -->
+
+app\templates\app\login.html:
+  20      
+  21:     <div class="'text-center text-primary fw-bold"><small>New to EasyShopzz  ? <a href="{% url 'customerregistration' %}" class="text-danger">Create an Account</a></small></div>
+  22      
+
+shoppinglyx\asgi.py:
+   1  """
+   2: ASGI config for shoppinglyx project.
+   3  
+
+  13  
+  14: os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shoppinglyx.settings')
+  15  
+
+shoppinglyx\settings.py:
+   1  """
+   2: Django settings for shoppinglyx project.
+   3  
+
+  52  
+  53: ROOT_URLCONF = 'shoppinglyx.urls'
+  54  
+
+  70  
+  71: WSGI_APPLICATION = 'shoppinglyx.wsgi.application'
+  72  
+
+shoppinglyx\wsgi.py:
+   1  """
+   2: WSGI config for shoppinglyx project.
+   3  
+
+  13  
+  14: os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shoppinglyx.settings')
+  15  
