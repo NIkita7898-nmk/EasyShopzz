@@ -12,6 +12,9 @@ from .models import Customer, Cart, Product, OrderPlaced
 #  return render(request, 'app/home.html')
 
 class ProductView(View):
+    """ 
+    A class based view to list all the products.
+    """
     def get(self, request):
         topwears = Product.objects.filter(category='TW')
         bottomwears = Product.objects.filter(category ='BW')
